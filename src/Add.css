@@ -1,0 +1,186 @@
+.add{
+    width: 40%;
+    background: none;
+    padding: 4px;
+    outline: none;
+     /* border: 1px solid #fff;
+    color: #fff; */
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 33px;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin-left: 15%;
+    border:2px solid rgb(190, 190, 190);
+    color: rgb(190, 190, 190);
+   }
+  
+   .add:hover{
+    border: 1px solid black;
+    color:black;
+    cursor: pointer;
+   }
+   .container{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .add-book{
+    display: grid;
+    grid-template-columns: auto auto;
+     }
+  
+  .container{
+    background: linear-gradient(to bottom, #99ccff 0%, #666699 100%);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100% ;
+    padding-bottom: 2%;
+  }
+ .container h2{
+    text-align: center;
+     text-decoration: underline;
+      /* text-decoration-color:red; */
+      text-underline-position: under;
+      color:black;
+      letter-spacing: 2px;
+      
+  }
+  
+.add-book-input input{
+    padding: 8px;
+    margin:10px;
+    margin-left: 15%;
+    
+    width: 70%;
+    color:black;
+    border: black;
+  }
+ 
+  .add-book-input input::placeholder {
+    color: gray;
+  }
+  .add-book-textarea textarea::placeholder
+  {
+    color:gray;
+  }
+  .select{
+    padding: 10px;
+    margin: 10px;  
+    width: 40%;
+    margin-left: -50%;
+    color:black;
+    border: black;
+    border-color: black;
+    border-block-color: black;
+  }
+  .add-book-select label{
+    padding: 10px;
+    margin: 10px;  
+    width: 70%;
+    margin-left: 15%;
+    color:black;
+    border: black;
+    border-color: black;
+    border-block-color: black;
+  }
+  .add-book-textarea textarea{
+  padding: 10px;
+  margin: 10px;  
+  width: 70%;
+  margin-left: 15%;
+  color:black;
+  border: black;
+  border-color: black;
+  border-block-color: black;
+  }
+  .lbl{
+    margin:10px;
+    margin-left: 15%;
+    color: black;  
+  }
+
+  .delete{
+    width: 40%;
+    background: none;
+    padding: 4px;
+    outline: none;
+     /* border: 1px solid #fff;
+    color: #fff; */
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 33px;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin-left: 15%;
+    border:2px solid rgb(190, 190, 190);
+    color: rgb(190, 190, 190);
+   }
+  
+   .delete:hover{
+    border: 1px solid black;
+    color:black;
+    cursor: pointer;
+   }
+   .deleteBtn:hover{
+    border: 3px solid black;
+    color:black;
+    cursor: pointer;
+   }
+   .addBtn:hover{
+    border: 3px solid black;
+    color:black;
+    cursor: pointer;
+   }
+   .addBtn{
+       margin-left: 35%;
+      margin-right: 5%;
+   }
+   .deleteBtn,.addBtn{
+       margin-bottom: 4%;
+    width: 10%;
+    background: none;
+    padding: 4px;
+    outline: none;
+     /* border: 1px solid #fff;
+    color: #fff; */
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 33px;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 2px;
+    border:2px solid black;
+    color: black;
+   }
+   @media (max-width: 768px){
+  
+         .add{
+           width: 75%;
+         }
+         .deleteBtn,.addBtn{
+             width: 30%;
+         }
+         .delete{
+            width: 75%;  
+         }
+         .add-book-select label{
+            margin-left: -5%;
+            display:flex;
+            flex-direction: row;
+         }
+         .select{
+             margin-left: -25%;
+             width: 90%;
+            display:flex;
+            flex-direction: row;
+           
+         }
+     }
